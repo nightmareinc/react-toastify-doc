@@ -165,7 +165,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { ToastContainer } from 'react-toastify';
 
-const StyledContainer = styled(WrappedToastContainer).attrs({
+const StyledContainer = styled(ToastContainer).attrs({
   // custom props
 })`
   .Toastify__toast-container {}
